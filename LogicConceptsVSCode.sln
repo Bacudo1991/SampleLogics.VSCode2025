@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortNumbers", "SortNumbers\SortNumbers.csproj", "{02D45D49-8AD0-481F-B8FF-1F524B2E454A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsMultipleOfAnother", "IsMultipleOfAnother\IsMultipleOfAnother.csproj", "{1D29EFD3-1171-4FF8-8B0F-DD5DDF10B333}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,18 @@ Global
 		{02D45D49-8AD0-481F-B8FF-1F524B2E454A}.Release|x64.Build.0 = Release|Any CPU
 		{02D45D49-8AD0-481F-B8FF-1F524B2E454A}.Release|x86.ActiveCfg = Release|Any CPU
 		{02D45D49-8AD0-481F-B8FF-1F524B2E454A}.Release|x86.Build.0 = Release|Any CPU
+		{1D29EFD3-1171-4FF8-8B0F-DD5DDF10B333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D29EFD3-1171-4FF8-8B0F-DD5DDF10B333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D29EFD3-1171-4FF8-8B0F-DD5DDF10B333}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1D29EFD3-1171-4FF8-8B0F-DD5DDF10B333}.Debug|x64.Build.0 = Debug|Any CPU
+		{1D29EFD3-1171-4FF8-8B0F-DD5DDF10B333}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1D29EFD3-1171-4FF8-8B0F-DD5DDF10B333}.Debug|x86.Build.0 = Debug|Any CPU
+		{1D29EFD3-1171-4FF8-8B0F-DD5DDF10B333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D29EFD3-1171-4FF8-8B0F-DD5DDF10B333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D29EFD3-1171-4FF8-8B0F-DD5DDF10B333}.Release|x64.ActiveCfg = Release|Any CPU
+		{1D29EFD3-1171-4FF8-8B0F-DD5DDF10B333}.Release|x64.Build.0 = Release|Any CPU
+		{1D29EFD3-1171-4FF8-8B0F-DD5DDF10B333}.Release|x86.ActiveCfg = Release|Any CPU
+		{1D29EFD3-1171-4FF8-8B0F-DD5DDF10B333}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
