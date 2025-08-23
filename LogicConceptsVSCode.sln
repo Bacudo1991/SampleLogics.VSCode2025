@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsLeapYear", "IsLeapYear\Is
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePayroll", "SimplePayroll\SimplePayroll.csproj", "{8EF01024-055A-4DB3-94BC-ECF8C0E31F35}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discounts", "Discounts\Discounts.csproj", "{52EFD748-1886-4352-BBC8-1802AF3A0B95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,18 @@ Global
 		{8EF01024-055A-4DB3-94BC-ECF8C0E31F35}.Release|x64.Build.0 = Release|Any CPU
 		{8EF01024-055A-4DB3-94BC-ECF8C0E31F35}.Release|x86.ActiveCfg = Release|Any CPU
 		{8EF01024-055A-4DB3-94BC-ECF8C0E31F35}.Release|x86.Build.0 = Release|Any CPU
+		{52EFD748-1886-4352-BBC8-1802AF3A0B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52EFD748-1886-4352-BBC8-1802AF3A0B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52EFD748-1886-4352-BBC8-1802AF3A0B95}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{52EFD748-1886-4352-BBC8-1802AF3A0B95}.Debug|x64.Build.0 = Debug|Any CPU
+		{52EFD748-1886-4352-BBC8-1802AF3A0B95}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{52EFD748-1886-4352-BBC8-1802AF3A0B95}.Debug|x86.Build.0 = Debug|Any CPU
+		{52EFD748-1886-4352-BBC8-1802AF3A0B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52EFD748-1886-4352-BBC8-1802AF3A0B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52EFD748-1886-4352-BBC8-1802AF3A0B95}.Release|x64.ActiveCfg = Release|Any CPU
+		{52EFD748-1886-4352-BBC8-1802AF3A0B95}.Release|x64.Build.0 = Release|Any CPU
+		{52EFD748-1886-4352-BBC8-1802AF3A0B95}.Release|x86.ActiveCfg = Release|Any CPU
+		{52EFD748-1886-4352-BBC8-1802AF3A0B95}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
