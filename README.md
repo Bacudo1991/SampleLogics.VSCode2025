@@ -1,2 +1,3 @@
 # SampleLogics.VSCode2025
-This is my first repository in VSCode
+This is my second repository made with VisualStudioCode
+
