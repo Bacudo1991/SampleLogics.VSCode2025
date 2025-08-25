@@ -12,25 +12,25 @@ public class ConsoleExtension
         }
         throw new Exception("El valor ingresado no es un número entero válido.");
     }
-    
-        public static float GetFloat(string message)
+
+    public static float GetFloat(string message)
     {
         Console.Write(message);
         var numberString = Console.ReadLine();
         if (float.TryParse(numberString, out float numberFloat))
         {
-            return numberFloat; 
+            return numberFloat;
         }
         throw new Exception("El valor ingresado no es válido.");
     }
 
-        public static decimal GetDecimal(string message)
+    public static decimal GetDecimal(string message)
     {
         Console.Write(message);
         var numberString = Console.ReadLine();
         if (decimal.TryParse(numberString, out decimal numberDecimal))
         {
-            return numberDecimal;  
+            return numberDecimal;
         }
         throw new Exception("El valor ingresado no es válido.");
     }
@@ -43,4 +43,15 @@ public class ConsoleExtension
 
         throw new Exception("El valor ingresado no es válido.");
     }
+
+        public static string? GetValidOptions(string message, List<string> options)
+        {
+            Console.Write(message);
+            var answer = Console.ReadLine();
+            if (options.Any(x => x.Equals(answer, StringComparison.CurrentCultureIgnoreCase)))
+            {
+                return answer;
+            }
+            return null;
+        }
 }
