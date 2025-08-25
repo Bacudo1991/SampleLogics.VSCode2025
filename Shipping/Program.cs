@@ -3,6 +3,7 @@
 
 var response = string.Empty;
 var options = new List<string> { "s", "n" };
+
 do
 {
     try
@@ -93,6 +94,6 @@ decimal CalculateFare(float weight)
     {
         return 30000m;
     }
-    int aditional = ((int)weight - 200)/10;
-    return 35000m + aditional * 2000m; 
+    int aditional = ((int)weight - 200) / 10;
+    return 35000m + aditional * 2000m;
 }
