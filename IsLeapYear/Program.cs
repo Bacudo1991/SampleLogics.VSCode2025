@@ -15,7 +15,7 @@ do
             message = "es";
         }
         else if (year > currentYear)
-        { 
+        {
             message = "va a ser";
         }
         else
@@ -24,32 +24,34 @@ do
         }
 
         if (year % 4 == 0)
+        {
+            if (year % 100 == 0)
             {
-                if (year % 100 == 0)
+                if (year % 400 == 0)
                 {
-                    if (year % 400 == 0)
-                    {
-                        Console.WriteLine($"El año: {year} {message} bisiesto.");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"El año: {year} no {message} bisiesto.");
-                    }
+                    Console.WriteLine($"El año: {year} {message} bisiesto.");
                 }
                 else
                 {
-                    Console.WriteLine($"El año: {year} {message} bisiesto.");
+                    Console.WriteLine($"El año: {year} no {message} bisiesto.");
                 }
             }
             else
             {
-                Console.WriteLine($"El año: {year} no {message} bisiesto.");
-            }        
+                Console.WriteLine($"El año: {year} {message} bisiesto.");
+            }
+        }
+        else
+        {
+            Console.WriteLine($"El año: {year} no {message} bisiesto.");
+        }
     }
     catch (Exception ex)
     {
         Console.WriteLine(ex.Message);
     }
     Console.Write("¿Desea continuar? (S/N): ");
-    response = Console.ReadLine()!.ToUpper(); 
+    response = Console.ReadLine()!.ToUpper();
 } while (response == "S");
+Console.WriteLine("\n:::::::::: GAME OVER ::::::::::\n");
+
