@@ -11,7 +11,7 @@ do
 
         var weigth = ConsoleExtension.GetFloat("Peso de la mercancía...............: ");
         var value = ConsoleExtension.GetDecimal("Valor de la mercancía.............: ");
-        string isMonday; 
+        string isMonday;
 
         do
         {
@@ -27,7 +27,7 @@ do
         } while (!payMethods.Any(x => x.Equals(payMethod, StringComparison.CurrentCultureIgnoreCase)));
 
         var fare = CalculateFare(weigth);
-        var discount = CalculateDiscount(fare, value);        
+        var discount = CalculateDiscount(fare, value);
         decimal promotion = 0;
 
         if (discount == 0)
@@ -35,10 +35,10 @@ do
             promotion = CalculatePromotion(fare, isMonday, payMethod, value);
         }
 
-            Console.WriteLine($"Tarifa...........................: {fare,20:C2}");
-            Console.WriteLine($"Descuento........................: {discount,20:C2}");
-            Console.WriteLine($"Promoción........................: {promotion,20:C2}");
-            Console.WriteLine($"Total a pagar....................: {fare - discount - promotion,20:C2}");
+        Console.WriteLine($"Tarifa...........................: {fare,20:C2}");
+        Console.WriteLine($"Descuento........................: {discount,20:C2}");
+        Console.WriteLine($"Promoción........................: {promotion,20:C2}");
+        Console.WriteLine($"Total a pagar....................: {fare - discount - promotion,20:C2}");
 
     }
 
@@ -47,8 +47,9 @@ do
         Console.WriteLine(ex.Message);
     }
     Console.Write("¿Desea continuar? (S/N)..........: ");
-    response = Console.ReadLine()!.ToUpper(); 
+    response = Console.ReadLine()!.ToUpper();
 } while (response == "S");
+Console.WriteLine("\n:::::::::: GAME OVER ::::::::::\n");
 
 decimal CalculatePromotion(decimal fare, string isMonday, string payMethod, decimal value)
 {
