@@ -14,9 +14,9 @@ do
             Console.WriteLine($"{number1} es múltiplo de {number2}.\n");
         }
         else
-        { 
+        {
             Console.WriteLine($"{number1} no es múltiplo de {number2}.\n");
-        }     
+        }
     }
     catch (Exception ex)
     {
@@ -24,4 +24,6 @@ do
     }
     Console.Write("¿Desea continuar? (S/N): ");
     response = Console.ReadLine()!.ToUpper();
-} while (response == "S"); 
+} while (response == "S");
+Console.WriteLine("\n:::::::::: GAME OVER ::::::::::");
+
