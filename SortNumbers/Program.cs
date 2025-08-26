@@ -55,5 +55,7 @@ do
         Console.WriteLine(ex.Message);
     }
     Console.Write("¿Desea continuar? (S/N): ");
-    response = Console.ReadLine()!.ToUpper(); 
+    response = Console.ReadLine()!.ToUpper();
 } while (response == "S");
+Console.WriteLine("\n:::::::::: GAME OVER ::::::::::");
+
