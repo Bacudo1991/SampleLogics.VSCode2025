@@ -20,7 +20,7 @@ do
         var tcOptions = new List<string> { "f", "a" };
         var TC = string.Empty;
         do
-        { 
+        {
             TC = ConsoleExtension.GetValidOptions("Tipo de conservación [F]rio, [A]mbiente................................: ", tcOptions);
         } while (!tcOptions.Any(x => x.Equals(TC, StringComparison.CurrentCultureIgnoreCase)));
 
@@ -34,7 +34,7 @@ do
         {
             MA = ConsoleExtension.GetValidOptions("Medio de almacenamiento [N]evera, [C]ongelador, [E]estanteria, [G]uacal: ", maOptions);
         } while (!maOptions.Any(x => x.Equals(MA, StringComparison.CurrentCultureIgnoreCase)));
-        
+
 
         Console.WriteLine(":::::::::: CÁLCULOS ::::::::::");
         var CA = GetCostoAlmacenamiento(CC, TC, PC, TP, VOL);
@@ -58,6 +58,7 @@ do
     Console.Write("¿Desea continuar? (S/N)................................................: ");
     response = Console.ReadLine()!.ToUpper();
 } while (response == "S");
+Console.WriteLine("\n:::::::::: GAME OVER :::::::::::\n");
 
 decimal GetValorVenta(decimal VR_P, string? TP)
 {
