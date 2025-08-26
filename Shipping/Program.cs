@@ -11,7 +11,7 @@ do
 
         var weigth = ConsoleExtension.GetFloat("Peso de la mercancía.............: ");
         var value = ConsoleExtension.GetDecimal("Valor de la mercancía............: ");
-        string isMonday;
+        string isMonday; 
 
         do
         {
