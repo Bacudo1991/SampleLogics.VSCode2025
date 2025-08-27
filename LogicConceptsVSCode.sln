@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumAndAverage", "SumAndAver
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{289CF839-6C2B-4B9B-A193-AE303CC34B47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taylor", "Taylor\Taylor.csproj", "{4E020621-B904-42C3-AD2F-34293BE091EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -209,6 +211,18 @@ Global
 		{289CF839-6C2B-4B9B-A193-AE303CC34B47}.Release|x64.Build.0 = Release|Any CPU
 		{289CF839-6C2B-4B9B-A193-AE303CC34B47}.Release|x86.ActiveCfg = Release|Any CPU
 		{289CF839-6C2B-4B9B-A193-AE303CC34B47}.Release|x86.Build.0 = Release|Any CPU
+		{4E020621-B904-42C3-AD2F-34293BE091EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E020621-B904-42C3-AD2F-34293BE091EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E020621-B904-42C3-AD2F-34293BE091EB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4E020621-B904-42C3-AD2F-34293BE091EB}.Debug|x64.Build.0 = Debug|Any CPU
+		{4E020621-B904-42C3-AD2F-34293BE091EB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4E020621-B904-42C3-AD2F-34293BE091EB}.Debug|x86.Build.0 = Debug|Any CPU
+		{4E020621-B904-42C3-AD2F-34293BE091EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E020621-B904-42C3-AD2F-34293BE091EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E020621-B904-42C3-AD2F-34293BE091EB}.Release|x64.ActiveCfg = Release|Any CPU
+		{4E020621-B904-42C3-AD2F-34293BE091EB}.Release|x64.Build.0 = Release|Any CPU
+		{4E020621-B904-42C3-AD2F-34293BE091EB}.Release|x86.ActiveCfg = Release|Any CPU
+		{4E020621-B904-42C3-AD2F-34293BE091EB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
