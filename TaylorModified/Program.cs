@@ -27,7 +27,7 @@ double TaylorModified(double x, int n)
     for (int i = 0; i < n; i++)
     {
         sum += Math.Pow(x, i) / MyMath.Factorial(i) * signo;
-        signo *= -1;
+        signo *= 1;
     }
     return sum;
 }
