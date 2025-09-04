@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Fact
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taylor", "Taylor\Taylor.csproj", "{4E020621-B904-42C3-AD2F-34293BE091EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaylorModified", "TaylorModified\TaylorModified.csproj", "{EC51E6D8-2D78-42D0-AF4A-C8599ADD2B12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -223,6 +225,18 @@ Global
 		{4E020621-B904-42C3-AD2F-34293BE091EB}.Release|x64.Build.0 = Release|Any CPU
 		{4E020621-B904-42C3-AD2F-34293BE091EB}.Release|x86.ActiveCfg = Release|Any CPU
 		{4E020621-B904-42C3-AD2F-34293BE091EB}.Release|x86.Build.0 = Release|Any CPU
+		{EC51E6D8-2D78-42D0-AF4A-C8599ADD2B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC51E6D8-2D78-42D0-AF4A-C8599ADD2B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC51E6D8-2D78-42D0-AF4A-C8599ADD2B12}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EC51E6D8-2D78-42D0-AF4A-C8599ADD2B12}.Debug|x64.Build.0 = Debug|Any CPU
+		{EC51E6D8-2D78-42D0-AF4A-C8599ADD2B12}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EC51E6D8-2D78-42D0-AF4A-C8599ADD2B12}.Debug|x86.Build.0 = Debug|Any CPU
+		{EC51E6D8-2D78-42D0-AF4A-C8599ADD2B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC51E6D8-2D78-42D0-AF4A-C8599ADD2B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC51E6D8-2D78-42D0-AF4A-C8599ADD2B12}.Release|x64.ActiveCfg = Release|Any CPU
+		{EC51E6D8-2D78-42D0-AF4A-C8599ADD2B12}.Release|x64.Build.0 = Release|Any CPU
+		{EC51E6D8-2D78-42D0-AF4A-C8599ADD2B12}.Release|x86.ActiveCfg = Release|Any CPU
+		{EC51E6D8-2D78-42D0-AF4A-C8599ADD2B12}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
