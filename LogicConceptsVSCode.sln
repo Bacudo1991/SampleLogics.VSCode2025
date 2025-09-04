@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taylor", "Taylor\Taylor.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaylorModified", "TaylorModified\TaylorModified.csproj", "{EC51E6D8-2D78-42D0-AF4A-C8599ADD2B12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquations", "QuadraticEquations\QuadraticEquations.csproj", "{E20E0CFE-CBD9-413F-8CE7-BDD95DC490CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +239,18 @@ Global
 		{EC51E6D8-2D78-42D0-AF4A-C8599ADD2B12}.Release|x64.Build.0 = Release|Any CPU
 		{EC51E6D8-2D78-42D0-AF4A-C8599ADD2B12}.Release|x86.ActiveCfg = Release|Any CPU
 		{EC51E6D8-2D78-42D0-AF4A-C8599ADD2B12}.Release|x86.Build.0 = Release|Any CPU
+		{E20E0CFE-CBD9-413F-8CE7-BDD95DC490CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E20E0CFE-CBD9-413F-8CE7-BDD95DC490CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E20E0CFE-CBD9-413F-8CE7-BDD95DC490CD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E20E0CFE-CBD9-413F-8CE7-BDD95DC490CD}.Debug|x64.Build.0 = Debug|Any CPU
+		{E20E0CFE-CBD9-413F-8CE7-BDD95DC490CD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E20E0CFE-CBD9-413F-8CE7-BDD95DC490CD}.Debug|x86.Build.0 = Debug|Any CPU
+		{E20E0CFE-CBD9-413F-8CE7-BDD95DC490CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E20E0CFE-CBD9-413F-8CE7-BDD95DC490CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E20E0CFE-CBD9-413F-8CE7-BDD95DC490CD}.Release|x64.ActiveCfg = Release|Any CPU
+		{E20E0CFE-CBD9-413F-8CE7-BDD95DC490CD}.Release|x64.Build.0 = Release|Any CPU
+		{E20E0CFE-CBD9-413F-8CE7-BDD95DC490CD}.Release|x86.ActiveCfg = Release|Any CPU
+		{E20E0CFE-CBD9-413F-8CE7-BDD95DC490CD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
