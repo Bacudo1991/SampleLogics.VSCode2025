@@ -36,8 +36,6 @@ QuadraticEquationSolution QuadraticEquation(double a, double b, double c)
     };  
 }
 
-
-
 public class QuadraticEquationSolution
 {
     public double X1 { get; set; }
