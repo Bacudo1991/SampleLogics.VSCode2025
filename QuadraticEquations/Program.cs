@@ -12,8 +12,6 @@ do
         Console.WriteLine($"x1 = {solution.X1:N5}");
         Console.WriteLine($"x2 = {solution.X2:N5}");
 
-
-
     }
     catch (Exception ex)
     {
