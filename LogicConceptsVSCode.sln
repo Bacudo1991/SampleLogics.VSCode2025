@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENumber", "ENumber\ENumber.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiNumber", "PiNumber\PiNumber.csproj", "{025431C1-DD4E-4E7D-AEB8-C4450BF33EDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar", "Calendar\Calendar.csproj", "{F4EFFCCA-2E9F-4CA8-A2EA-0203601DA27F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -335,6 +337,18 @@ Global
 		{025431C1-DD4E-4E7D-AEB8-C4450BF33EDC}.Release|x64.Build.0 = Release|Any CPU
 		{025431C1-DD4E-4E7D-AEB8-C4450BF33EDC}.Release|x86.ActiveCfg = Release|Any CPU
 		{025431C1-DD4E-4E7D-AEB8-C4450BF33EDC}.Release|x86.Build.0 = Release|Any CPU
+		{F4EFFCCA-2E9F-4CA8-A2EA-0203601DA27F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4EFFCCA-2E9F-4CA8-A2EA-0203601DA27F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4EFFCCA-2E9F-4CA8-A2EA-0203601DA27F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F4EFFCCA-2E9F-4CA8-A2EA-0203601DA27F}.Debug|x64.Build.0 = Debug|Any CPU
+		{F4EFFCCA-2E9F-4CA8-A2EA-0203601DA27F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F4EFFCCA-2E9F-4CA8-A2EA-0203601DA27F}.Debug|x86.Build.0 = Debug|Any CPU
+		{F4EFFCCA-2E9F-4CA8-A2EA-0203601DA27F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4EFFCCA-2E9F-4CA8-A2EA-0203601DA27F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4EFFCCA-2E9F-4CA8-A2EA-0203601DA27F}.Release|x64.ActiveCfg = Release|Any CPU
+		{F4EFFCCA-2E9F-4CA8-A2EA-0203601DA27F}.Release|x64.Build.0 = Release|Any CPU
+		{F4EFFCCA-2E9F-4CA8-A2EA-0203601DA27F}.Release|x86.ActiveCfg = Release|Any CPU
+		{F4EFFCCA-2E9F-4CA8-A2EA-0203601DA27F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

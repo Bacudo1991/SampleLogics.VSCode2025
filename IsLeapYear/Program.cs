@@ -23,28 +23,11 @@ do
             message = "fue";
         }
 
-        if (year % 4 == 0)
-        {
-            if (year % 100 == 0)
-            {
-                if (year % 400 == 0)
-                {
-                    Console.WriteLine($"El año: {year} {message} bisiesto.");
-                }
-                else
-                {
-                    Console.WriteLine($"El año: {year} no {message} bisiesto.");
-                }
-            }
-            else
-            {
-                Console.WriteLine($"El año: {year} {message} bisiesto.");
-            }
-        }
-        else
-        {
-            Console.WriteLine($"El año: {year} no {message} bisiesto.");
-        }
+        var isLeapYear = DateUtilities.IsLeapYear(year);
+
+
+        Console.WriteLine($"El año: {year}, {(isLeapYear ? "SI" : "NO")} {message} bisiesto.");
+
     }
     catch (Exception ex)
     {
