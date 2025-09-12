@@ -7,19 +7,17 @@ do
     {
         Console.BackgroundColor = ConsoleColor.Red;
         Console.Clear();
-        Console.WriteLine("::::::::: OPERACIONES EN UN ARREGLO :::::::::");
+        Console.WriteLine("::::::::: ORDENACIÓN ESPECIAL DE UN ARREGLO :::::::::");
         var n = ConsoleExtension.GetInt("¿Cuantas posiciones quieres en el arreglo?: ");
         var numbers = new int[n];
 
         FillArray(numbers);
 
+
         Console.BackgroundColor = ConsoleColor.Red;
         Console.ForegroundColor = ConsoleColor.Black;
 
         ShowArray(numbers);
-        Console.WriteLine($"La sumatoria es: {numbers.Sum(),30:N2}");        
-        Console.WriteLine($"El promedio es : {numbers.Average(),30:N2}");    
-
 
         Console.BackgroundColor = ConsoleColor.Black;
         Console.ForegroundColor = ConsoleColor.Blue;
@@ -51,4 +49,4 @@ void FillArray(int[] numbers)
     {
         numbers[i] = random.Next(0, 100);
     }
-}
+}   
