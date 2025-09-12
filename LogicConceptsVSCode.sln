@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar", "Calendar\Calend
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenAndOddArray", "EvenAndOddArray\EvenAndOddArray.csproj", "{933447C2-13CA-4D9D-8CE8-0DF8D669A905}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayOperations", "ArrayOperations\ArrayOperations.csproj", "{436E2A11-A4A7-4C9D-8005-A3CB6448B463}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -363,6 +365,18 @@ Global
 		{933447C2-13CA-4D9D-8CE8-0DF8D669A905}.Release|x64.Build.0 = Release|Any CPU
 		{933447C2-13CA-4D9D-8CE8-0DF8D669A905}.Release|x86.ActiveCfg = Release|Any CPU
 		{933447C2-13CA-4D9D-8CE8-0DF8D669A905}.Release|x86.Build.0 = Release|Any CPU
+		{436E2A11-A4A7-4C9D-8005-A3CB6448B463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436E2A11-A4A7-4C9D-8005-A3CB6448B463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436E2A11-A4A7-4C9D-8005-A3CB6448B463}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{436E2A11-A4A7-4C9D-8005-A3CB6448B463}.Debug|x64.Build.0 = Debug|Any CPU
+		{436E2A11-A4A7-4C9D-8005-A3CB6448B463}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{436E2A11-A4A7-4C9D-8005-A3CB6448B463}.Debug|x86.Build.0 = Debug|Any CPU
+		{436E2A11-A4A7-4C9D-8005-A3CB6448B463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436E2A11-A4A7-4C9D-8005-A3CB6448B463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{436E2A11-A4A7-4C9D-8005-A3CB6448B463}.Release|x64.ActiveCfg = Release|Any CPU
+		{436E2A11-A4A7-4C9D-8005-A3CB6448B463}.Release|x64.Build.0 = Release|Any CPU
+		{436E2A11-A4A7-4C9D-8005-A3CB6448B463}.Release|x86.ActiveCfg = Release|Any CPU
+		{436E2A11-A4A7-4C9D-8005-A3CB6448B463}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
